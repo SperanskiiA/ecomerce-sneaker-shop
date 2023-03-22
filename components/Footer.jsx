@@ -1,13 +1,18 @@
 import React from 'react';
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import { FaLinkedinIn, FaTelegramPlane } from 'react-icons/fa';
+import { BsTelegram, BsFacebook } from 'react-icons/bs';
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <p>2023 FancyStore All rights reserved</p>
       <p className="icons">
-        <AiFillInstagram />
-        <AiOutlineTwitter />
+        <a href="https://www.linkedin.com/in/arsper/" target="_blank">
+          <FaLinkedinIn />
+        </a>
+        <a href="https://t.me/sp_aron" target="_blank">
+          <FaTelegramPlane />
+        </a>
       </p>
     </div>
   );
