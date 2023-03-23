@@ -6,12 +6,14 @@ import Footer from './Footer';
 const Layout = ({ children }) => {
   return (
     <div className="layout">
-      <Head>
-        <title>Fancy Store</title>
-      </Head>
-      <header>
-        <Navbar />
-      </header>
+      <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+        <Head>
+          <title>Fancy Store</title>
+        </Head>
+        <header>
+          <Navbar />
+        </header>
+      </div>
       <main className="main-container">{children}</main>
       <footer>
         <Footer />
